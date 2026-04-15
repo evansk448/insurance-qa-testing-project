@@ -1,5 +1,4 @@
-# insurance-qa-testing-project
-Risk-based QA testing project focused on insurance claims workflows
+# Insurance Claims QA Testing Project
 
 ## Overview
 This project demonstrates risk-based testing applied to an insurance claims workflow.
