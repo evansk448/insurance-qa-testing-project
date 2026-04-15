@@ -15,7 +15,7 @@
 4. Submit claim
 
 **Expected Result:**
-Claim is successfully created and assigned a claim number.
+Claim is successfully created and a unique claim number is generated.
 
 ---
 
@@ -34,7 +34,7 @@ Claim is successfully created and assigned a claim number.
 4. Submit claim
 
 **Expected Result:**
-System should display an error message requesting required documents and prevent submission.
+System displays an error message indicating required documents are missing and prevents claim submission.
 
 ---
 
@@ -52,7 +52,7 @@ System should display an error message requesting required documents and prevent
 4. Submit claim
 
 **Expected Result:**
-System should detect and flag the duplicate claim, preventing submission or alerting the user.
+System detects and flags the duplicate claim, preventing submission or notifying the user of an existing related claim.
 
 ---
 
@@ -67,6 +67,30 @@ System should detect and flag the duplicate claim, preventing submission or aler
 **Steps:**
 1. Create a new claim with both insured and third-party exposures
 2. Set insured liability to 0%
+3. Assign third-party liability between 1%–100%
+4. Save and process the claim
+5. Issue a payment from the first-party exposure
+
+**Expected Result:**
+System automatically triggers the subrogation workflow and flags the claim for recovery review.
+
+---
+
+## TC-05: Invalid Policy Number
+
+**Priority:** P1
+
+**Preconditions:**
+- User is on the claims submission page
+
+**Steps:**
+1. Navigate to claims submission page
+2. Enter an invalid policy number format
+3. Complete all other required fields
+4. Submit claim
+
+**Expected Result:**
+System displays an error indicating the policy number is invalid and prevents claim submission.2. Set insured liability to 0%
 3. Assign third-party liability between 1%–100%
 4. Save and process the claim
 5. Issue a payment from the first-party exposure
