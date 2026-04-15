@@ -5,7 +5,7 @@ Validate claims workflow and subrogation logic.
 
 ## Scope
 - Claims creation
-- Liability assignment
+- Liability assignment (as part of subrogation and business rule validation)
 - Subrogation triggering
 
 ## Approach
