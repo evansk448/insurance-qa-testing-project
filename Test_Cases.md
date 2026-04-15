@@ -114,4 +114,4 @@ System should automatically trigger subrogation workflow and flag the claim for 
 4. Submit claim
 
 **Expected Result:**
-System should display an error indicating the policy number is invalid and prevent submission.
+System displays an error indicating the policy number is invalid and prevents claim submission.
