@@ -1,16 +1,23 @@
 # Insurance Claims QA Testing Project
 
 ## Overview
-This project demonstrates risk-based testing applied to an insurance claims workflow.
+Risk-based testing project focused on claims intake and subrogation workflows.
 
-## Key Skills
+## Objective
+Demonstrate how core insurance workflows can be analyzed, prioritized, and validated through structured test cases and defect documentation.
+
+## Skills Demonstrated
 - Test Case Design
 - Risk-Based Prioritization
 - Defect Documentation
-- Workflow Analysis
+- Business Rule Validation
+- Workflow / System Analysis
 
-## Artifacts
-- Test Plan
-- Test Cases
-- Defects
-- Screenshots
+## Repository Contents
+- Test_Plan.md
+- Test_Cases.md
+- Defects/
+- Screenshots/
+
+## Summary
+This project reflects QA and systems-analysis thinking applied to real-world claims scenarios, with emphasis on business impact and workflow reliability.
