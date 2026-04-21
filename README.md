@@ -1,4 +1,4 @@
-# Insurance Claims QA Testing Project
+# Claims QA Testing Project
 
 ## Overview
 Risk-based testing project focused on claims intake and subrogation workflows.
